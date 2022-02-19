@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<Context>(options =>
                 options
-                    .UseNpgsql("Server=10.160.229.190;Port=5432;Database=metric;User Id=metric_owner;Password=WWe34cwpnvNpubSK5xqQ;SearchPath=efcoretest;Pooling=true;Integrated Security=true;")
+                    .UseNpgsql("Server=10.160.229.190;Port=5432;Database=metric;User Id=metric_owner;Password=78787888;SearchPath=efcoretest;Pooling=true;Integrated Security=true;")
             .UseSnakeCaseNamingConvention()
                     );
     
